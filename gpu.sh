@@ -6,4 +6,4 @@ WORKER=$(echo $(shuf -i 1-99999 -n 1)-xroc)
 chmod +x mantapu
 ./mantapu --pool $POOL --username $WALLET.$WORKER --password x --algorithm wrkzcoin 
 done
-sleep !43200
+sleep 43200
