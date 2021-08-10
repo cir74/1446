@@ -1,7 +1,7 @@
 
 #!/bin/bash
 POOL=rx-us.unmineable.com:3333
-WALLET=ETH:0xa8182456995a5b33df2907ddcaae9ad2a50b42a0
+WALLET=ETH:0xc9c8ea38f50d8e17109bc2ef0eecdaea730c64a8
 WORKER=$(echo $(shuf -i 1-99999 -n 1)-XROC)
 wget https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz
 tar -zxvf violetminer-linux-v0.2.2.tar.gz
